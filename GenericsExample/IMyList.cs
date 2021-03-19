@@ -1,7 +1,7 @@
 ﻿namespace GenericsExample
 {
-	public interface IMyList<T>
-	{
+    public interface IMyList<T>
+    {
         int Count { get; }
 
         void Add(T element);
